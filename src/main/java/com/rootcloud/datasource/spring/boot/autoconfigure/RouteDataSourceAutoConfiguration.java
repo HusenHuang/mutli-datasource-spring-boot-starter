@@ -30,7 +30,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 路由数据源自动配置实现相关
  * <code>
  * // 默认情况不需要指定 spring.datasource.type 类型，会自动匹配 com.candao.framework.datasource.bean.RouteDataSource
- * spring.datasource.type=com.candao.framework.datasource.bean.RouteDataSource
+ * spring.datasource.type= com.rootcloud.datasource.bean.RouteDataSource
  * </code>
  * <p>
  * 自动配置顺序先于 {@see org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class}
